@@ -1,0 +1,221 @@
+h1 {
+      font-family: 'Special Elite', cursive;
+      color: white;
+      text-align: center;
+}
+
+.heading_2,
+.section_frame {
+      text-align: center;
+      font-family: 'Noto Serif', serif;
+}
+
+h3 {
+      font-family: 'Libre Baskerville', serif;
+}
+
+h6 {
+      text-align: center;
+      border-bottom: 2px solid;
+      font-size: 3em;
+      font-family: 'Special Elite', cursive;
+
+}
+
+p {
+      font-family: 'Josefin Slab', serif;
+}
+
+#main_img {
+     background-image: url('/css/book4.jpg');
+     background-size: cover;
+     background-position: center center;
+     position: relative;
+      height: 100vh;
+}
+
+#main_img_overlay {
+     height: 100%;
+     width: 100%;
+     background-color: rgba(0, 0, 0, 0.3);
+}
+
+.intro {
+      width: 100%;
+      position: absolute;
+      top: 300px;
+}
+
+.buttonOne {
+      z-index: 0;
+      display: block;
+      margin: 0 auto;
+      color: white;
+      font-family: 'Josefin Sans', sans-serif;
+}
+/* Navigation menu */
+.toggle_menu {
+      color: silver;
+      margin:0.5em;
+      font-size: 3em;
+      position:fixed;
+      cursor: pointer;
+      z-index: 3;
+}
+
+.sidebar_menu {
+      position:fixed;
+      width: 250px;
+      margin-left:0px;
+      overflow:hidden;
+      height: 100vh;
+      background-color: rgba(17, 17,17, 0.8);
+      max-height: 100vh;
+      transition:all 0.4s ease-in-out;
+      z-index: 4;
+      margin-left: -350px;
+}
+
+.hide_menu {
+      position:fixed;
+      width: 350px;
+      margin-left:0px;
+      overflow:hidden;
+      height: 100vh;
+      background-color: rgba(17, 17,17, 0.8);
+      max-height: 100vh;
+      transition:all 0.4s ease-in-out;
+}
+
+.opacity_one {
+    opacity: 0;
+}
+.navigation_selection{
+      margin: 20px 0;
+      display: block;
+      width: 200px;
+      position:absolute;
+      top: 115px;
+}
+li {
+      list-style: none;
+}
+li:hover {
+      list-style: disc;
+}
+.navigation_item a {
+      color: white;
+      font-family: 'Special Elite', cursive;
+      border-bottom: solid 1px #ffc107;
+      transition:all 0.2s ease-in-out;
+      cursor: pointer;
+      text-decoration: none;
+}
+.navigation_item:hover {
+      opacity: 1;
+      color: #ffc107;
+      transition:all 0.3s ease-in-out;
+}
+.fa-arrow-left {
+      font-size: 2em;
+      right: 10px;
+      top: 10px;
+      opacity: 0.7;
+      cursor: pointer;
+      position: absolute;
+      color: lightgrey;
+      transition: all 0.3s ease-in-out;
+}
+.fa-arrow-left:hover {
+      opacity: 1;
+      color: #ffc107;
+}
+/* End Navigation menu */
+
+.nav_bottom {
+      text-align: center;
+      text-decoration: none;
+}
+.nav_bottom ul li {
+      list-style: none;
+      display: inline-block;
+      margin:10px 10px;
+}
+.nav_bottom ul li a {
+      color: white;
+      transition:all 0.2s ease-in-out;
+      cursor: pointer;
+      text-decoration: none;
+}
+.nav_bottom ul li a:hover {
+      color: #ffc107;
+      cursor: pointer;
+      text-decoration: none;
+}
+.icon {
+      display:block;
+      margin: 15px;
+      color: white;
+}
+
+.section_1_cards{
+      margin-bottom: 10px;
+}
+.section_one_img,
+.section_one_img_show  {
+      margin:0 auto;
+      margin-bottom:10px;
+}
+
+.section_one_img:hover {
+      transform: scale(1.1);
+      z-index: 2;
+      transition: all 0.5s;
+      background-color: lightgrey;
+      box-shadow:  2px 2px 2px black;
+}
+
+.copyright {
+      color:white;
+}
+
+.copyright_bottom,
+.button,
+.danger,
+h2,
+.message {
+      text-align: center;
+}
+
+.card-title,
+.card-price {
+      text-align: center;
+      border-bottom: 2px solid black;
+      font-family: 'Special Elite', cursive;
+}
+.mains_create_form {
+      color: white;
+      margin: 0 auto;
+}
+
+#particles-js {
+      height: 100%;
+      width: 100%;
+      background-color: black;
+}
+
+.form_delete {
+      display: inline-block;
+}
+/* Main first section */
+
+.dropdown-toggle{
+      color: black;
+}
+
+footer {
+      height: 200px;
+      width: 100%;
+      background-color:
+      rgba(69,72,77,1);
+}
